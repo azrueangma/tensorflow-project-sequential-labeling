@@ -1,9 +1,4 @@
 #reduce_mean
-'''
-temp = self.Y_one_hot * tf.log(self.hypothesis)
-v = tf.reshape(temp,[1,-1])
-self.cost = -tf.reshape(tf.matmul(v, tf.ones_like(v), transpose_b=True),[],name = 'cost')  
-'''
 
 import tensorflow as tf
 sess = tf.Session()
