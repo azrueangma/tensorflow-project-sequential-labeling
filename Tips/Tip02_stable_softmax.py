@@ -13,3 +13,8 @@ with tf.Session() as sess:
     print(sess.run(tf.nn.softmax(a)))
     print(sess.run(stable_softmax(a)))
 
+    
+'''
+[0.07839411 0.57925844 0.21309727 0.12925003]
+[0.07839411 0.57925844 0.21309729 0.12925005]
+'''
